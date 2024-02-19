@@ -1,0 +1,46 @@
+/*
+En commentaire parce qu'elle est déjà importée dans le HTML
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap') */
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.card {
+  height: 420px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 5px 5px 20px gray;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px gray;
+}
+
+.card__image-box {
+  height: 280px;
+}
+
+.card__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card__description {
+  font-weight: 300;
+}
+
+.card__price {
+}
