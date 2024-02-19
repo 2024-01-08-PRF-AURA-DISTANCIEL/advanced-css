@@ -55,10 +55,30 @@
   color: #fff;
 }
 
+.left-arrow,
+.right-arrow {
+  position: absolute;
+}
+
 .left-arrow {
   left: 0;
 }
 
 .right-arrow {
   right: 0;
+}
+
+.card__dots {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.dot {
+  color: #fff;
+  font-size: 15px;
+  /* On va plus tard utiliser la pseudo class ":not" */
+  padding: 0 5px;
 }
